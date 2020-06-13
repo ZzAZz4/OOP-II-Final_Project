@@ -1,11 +1,13 @@
 cmake_minimum_required(VERSION 3.14)
-project(Project)
+project(OOP_II_Final_Project)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(files
+include_directories(.)
+include_directories(Headers)
+
+add_executable(OOP_II_Final_Project
         main.cpp
-        Battleship.h
-        Definitions
         Headers
-        )
+        Definitions
+        Battleship.h)

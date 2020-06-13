@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = C:\Users\esteb\Desktop\OOP-Sv\OOP-II-Final_Project\cmake-buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named files
+# Target rules for targets named OOP_II_Final_Project
 
 # Build rule for target.
-files: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 files
-.PHONY : files
+OOP_II_Final_Project: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 OOP_II_Final_Project
+.PHONY : OOP_II_Final_Project
 
 # fast build rule for target.
-files/fast:
-	$(MAKE) -f CMakeFiles\files.dir\build.make CMakeFiles/files.dir/build
-.PHONY : files/fast
+OOP_II_Final_Project/fast:
+	$(MAKE) -f CMakeFiles\OOP_II_Final_Project.dir\build.make CMakeFiles/OOP_II_Final_Project.dir/build
+.PHONY : OOP_II_Final_Project/fast
 
 main.obj: main.cpp.obj
 
@@ -128,7 +128,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\files.dir\build.make CMakeFiles/files.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\OOP_II_Final_Project.dir\build.make CMakeFiles/OOP_II_Final_Project.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +137,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\files.dir\build.make CMakeFiles/files.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\OOP_II_Final_Project.dir\build.make CMakeFiles/OOP_II_Final_Project.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +146,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\files.dir\build.make CMakeFiles/files.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\OOP_II_Final_Project.dir\build.make CMakeFiles/OOP_II_Final_Project.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -155,9 +155,9 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... edit_cache
-	@echo ... files
 	@echo ... rebuild_cache
+	@echo ... OOP_II_Final_Project
+	@echo ... edit_cache
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

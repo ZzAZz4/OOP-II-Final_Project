@@ -4,12 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/esteb/Desktop/OOP-Sv/OOP-II-Final_Project/main.cpp" "C:/Users/esteb/Desktop/OOP-Sv/OOP-II-Final_Project/cmake-build-debug/CMakeFiles/files.dir/main.cpp.obj"
+  "C:/Users/esteb/Desktop/OOP-Sv/OOP-II-Final_Project/main.cpp" "C:/Users/esteb/Desktop/OOP-Sv/OOP-II-Final_Project/cmake-build-debug/CMakeFiles/OOP_II_Final_Project.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../."
+  "../Headers"
   )
 
 # Targets to which this target links.
