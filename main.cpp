@@ -9,7 +9,6 @@
 #include <map>
 #include <cmath>
 #include <unordered_set>
-#include <algorithm>
 
 
 #include "utility/functions.h"
@@ -317,7 +316,7 @@ class PBoard
                 for (auto & value : row)
                     value *= count;
 
-            _append(_evaluation, localEvaluation);
+            _append(localEvaluation, layer);
         }
         for (unsigned i = 0; i < _evaluation.size(); ++i)
             for (unsigned j = 0; j < _evaluation.size(); ++j)
@@ -512,7 +511,6 @@ public:
 
 int main ()
 {
-    srand(time(nullptr));
     AiPlayer s(10, 5, 4, 4, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1);
     for (auto i = 0; i < 19; ++i)
         s.chooseBestMove();
