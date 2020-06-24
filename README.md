@@ -1,10 +1,10 @@
 # Título del Proyecto
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_En este repositorio se presenta la implementación de una IA en C++ que nos dará las posiciones con mayor probabilidad de tener un disparo exitoso en en el juego "Battleship". Se tiene en cuenta que solo mediante el "servidor" se sabrá si el disparo fue exitoso contra una embarcación._
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Primero se debe clonar el repositorio en conjunto con el repositorio del servidor. _ 
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
