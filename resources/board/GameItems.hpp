@@ -97,13 +97,13 @@ class Board
 
     Boat_list_t Boat_list;
     Map<Point<T>, list_iter> Positions;
-    size_t v_size, h_size;
 
 #ifdef DEBUG
     Map<Point<T>, Shot_marker<T>> shot_record;
 #endif
 
 public:
+    size_t v_size, h_size;
 
     constexpr
     Board
@@ -128,7 +128,7 @@ public:
                 return false;
 
         size_t size = nBoat.size() - 1;
-        auto dir = (nBoat.end() - nBoat.begin()) / size;
+        auto dir = size == 0 ? Point<>(Direction::Right) : (nBoat.end() - nBoat.begin()) / size;
         Boat_list.emplace_back(std::move(nBoat));
 
         for (size_t i = 0; i <= size; ++i)

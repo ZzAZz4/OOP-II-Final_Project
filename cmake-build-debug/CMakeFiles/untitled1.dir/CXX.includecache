@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/esteb/Desktop/untitled1/game/base/Builder.hpp
+../../resources/board/GameItems.hpp
+C:/Users/esteb/Desktop/untitled1/resources/board/GameItems.hpp
+
 C:/Users/esteb/Desktop/untitled1/game/base/Selector.hpp
 ../../resources/geometry/Geometry.hpp
 C:/Users/esteb/Desktop/untitled1/resources/geometry/Geometry.hpp
@@ -45,6 +49,8 @@ game/base/Selector.hpp
 C:/Users/esteb/Desktop/untitled1/game/base/Selector.hpp
 resources/board/GameItems.hpp
 C:/Users/esteb/Desktop/untitled1/resources/board/GameItems.hpp
+game/base/Builder.hpp
+C:/Users/esteb/Desktop/untitled1/game/base/Builder.hpp
 
 C:/Users/esteb/Desktop/untitled1/resources/board/GameItems.cpp
 GameItems.hpp
