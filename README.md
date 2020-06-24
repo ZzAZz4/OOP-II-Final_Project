@@ -72,7 +72,7 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 
 * **Esteban Villacorta García** - [ ZzAZz4 - esteban.villacorta@utec.edu.pe]
 * **Luis Luy** - [LuisLuy - luis.luy@utec.edu.pe]
-* **Neftalí Calixto** - [fulanitodetal - neftali.calixto@utec.edu.pe]
+* **Neftalí Calixto** - [neftalics - neftali.calixto@utec.edu.pe]
 * **Esteban Principe** - [miunmn - esteban.principe@utec.edu.pe]
 
 ## Licencia 📄
