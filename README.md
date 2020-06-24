@@ -4,17 +4,15 @@ _En este repositorio se presenta la implementación de una IA en C++ que nos dar
 
 ## Comenzando 🚀
 
-_Primero se debe clonar el repositorio en conjunto con el repositorio del servidor. _ 
+_Primero se debe clonar el repositorio en conjunto con el repositorio del servidor (link del server más adelante). _ 
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
 ```
-Da un ejemplo
+C++ 17
 ```
 
 ### Instalación 🔧
@@ -37,7 +35,7 @@ _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para 
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+_Las pruebas a ejecutar consisten en realizar varias partidas de Battleship. En primera instancia usaremos _
 
 ### Analice las pruebas end-to-end 🔩
 
@@ -64,41 +62,27 @@ _Agrega notas adicionales sobre como hacer deploy_
 _Herramientas:_
 
 * [Battleship](http://www.datagenetics.com/blog/december32011/) - Fuente 
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+* [Server](https://github.com/rrivas-utec/battleship_server) - Implementación del server. Realizado por el profesor del curso
+* [CLion](https://www.jetbrains.com/clion/) - Usado para la compilación y testeo del proyecto
+* [Replit](https://repl.it/~) - Usado para la compilación y testeo del proyecto
 
 ## Autores ✒️
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Esteban Villacorta García** - *Trabajo Inicial* - [ ZzAZz4 - esteban.villacorta@utec.edu.pe]
-* **Luis Luy** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-* **Neftalí Calixto** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-* **Esteban Principe** - *Documentación* - [miunmn - esteban.principe@utec.edu.pe]
+* **Esteban Villacorta García** - [ ZzAZz4 - esteban.villacorta@utec.edu.pe]
+* **Luis Luy** - [fulanitodetal - luis.luy@utec.edu.pe]
+* **Neftalí Calixto** - [fulanitodetal - neftali.calixto@utec.edu.pe]
+* **Esteban Principe** - [miunmn - esteban.principe@utec.edu.pe]
 
 ## Licencia 📄
 
-Este proyecto está bajo latp://www.datagenetics.com/blog/december32011/ Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+UTEC
 
-## Expresiones de Gratitud 🎁
+## Comentarios y observaciones.🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
+La realización del proyecto tuvo varios incovenientes ajenos a lo académico, debido a la situación mundial presente.
+Por otra parte, la utlización de la IA implicó una indagación extra bastante enriquecedora como base de nuestro proyecto. 
 
 
 ---
