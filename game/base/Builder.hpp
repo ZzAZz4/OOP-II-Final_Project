@@ -1,0 +1,9 @@
+#ifndef UNTITLED1_BUILDER_HPP
+#define UNTITLED1_BUILDER_HPP
+
+class Builder
+{
+
+};
+
+#endif //UNTITLED1_BUILDER_HPP

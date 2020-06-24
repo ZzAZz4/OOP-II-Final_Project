@@ -80,10 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/esteb/Desktop/untitled1/config">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/esteb/Desktop/untitled1/engine">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/esteb/Desktop/untitled1/game">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="C:/Users/esteb/Desktop/untitled1/logs">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/esteb/Desktop/untitled1/main.cpp">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="C:/Users/esteb/Desktop/untitled1/utility">
+		<Unit filename="C:/Users/esteb/Desktop/untitled1/resources">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="C:/Users/esteb/Desktop/untitled1/CMakeLists.txt">
