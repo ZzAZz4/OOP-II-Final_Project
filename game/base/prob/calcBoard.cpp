@@ -8,7 +8,6 @@ PBoard<T>::PBoard (
     Args... args)
     :       _size(size),
             _evaluation(size, Vector(size)),
-            _extraLayer(_evaluation),
             _searchMode(TargetMode::Hunt)
 {
     (assert(args > 0 && args <= 5), ...);
@@ -44,7 +43,7 @@ PBoard<T>::at (
         return std::nullopt;
     else if (huntMode)
         return std::make_optional(_evaluation[c.y][c.x]);
-    T nVal = 0.25 * _evaluation[c.y][c.x] + _extraLayer[c.y][c.x];
+    T nVal = 0.25 * _evaluation[c.y][c.x]; // + _extraLayer[c.y][c.x]
     return std::make_optional(nVal);
 }
 

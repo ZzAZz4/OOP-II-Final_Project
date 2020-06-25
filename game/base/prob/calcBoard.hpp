@@ -33,8 +33,7 @@ private:
     UInt _size{};
     Matrix _evaluation;
     CountMap _boatSizes{};
-    BoardMap _boatProbabilities = {};
-    Matrix _extraLayer;
+    BoardMap _boatProbabilities{};
 
 public:
     USet _updates{};
@@ -59,7 +58,7 @@ public:
         const Point<T> & c,
         const bool & huntMode = true);
 
-    UpdateMessage checkImpact(
+    UpdateMessage checkImpact (
         const Point<T> & coordinate);
 
     void propagate (
@@ -71,25 +70,15 @@ public:
     print ();
 
     void
-    removeBoat(
+    removeBoat (
         UInt boatSize);
 
     void
     clearUpdates ();
 
     void
-    clearExtraLayer ()
-    {
-        for (auto& row : _extraLayer)
-            for (auto& item : row)
-                item = 0;
-    }
-
-    void
     changeMode (TargetMode mode)
     {
-        if (mode == TargetMode::Hunt)
-            clearExtraLayer();
         _searchMode = mode;
     }
 

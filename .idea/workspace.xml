@@ -34,16 +34,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25ba4b61-6392-4bc8-a812-6cc72547d31e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled1.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled1.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled1.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/Player.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/Player.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/base/Builder.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/base/Builder.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/board/GameItems.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/board/GameItems.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/base/prob/calcBoard.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/base/prob/calcBoard.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/base/prob/calcBoard.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/base/prob/calcBoard.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/commons/hashing.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/commons/hashing.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/geometry/Geometry.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/resources/geometry/Geometry.hpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +122,7 @@
       <workItem from="1592556858437" duration="260000" />
       <workItem from="1592623446855" duration="625000" />
       <workItem from="1592625658856" duration="2862000" />
-      <workItem from="1592801130329" duration="121994000" />
+      <workItem from="1592801130329" duration="129964000" />
     </task>
     <task id="LOCAL-00001" summary="fast fixed some bugs">
       <created>1592954264514</created>
@@ -132,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592954264514</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added prototype for Builder board construction">
+      <created>1593032420420</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593032420420</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +158,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed a bug in _recalculate function" />
     <MESSAGE value="fast fixed some bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fast fixed some bugs" />
+    <MESSAGE value="added prototype for Builder board construction" />
+    <option name="LAST_COMMIT_MESSAGE" value="added prototype for Builder board construction" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

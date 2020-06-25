@@ -50,7 +50,6 @@ struct Point
 
     constexpr
     bool operator ==
-
         (const Point & other) const;
 
     constexpr

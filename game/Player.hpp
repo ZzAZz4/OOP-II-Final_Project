@@ -12,34 +12,16 @@
 
 class Player
 {
-    unsigned ID;
+    std::string token;
     Builder builder;
     Selector selector;
     Parser parser;
 
-    enum class actions
-    {
-        Handshake, Place, Attack
-    };
-
 public:
-    void receiveMessage (Message message)
-    {
-
-    }
-
-    Message createMessage ()
-    {
-
-    }
-
-    auto attack ()
-    {
-
-    }
 
 
 };
+
 
 
 #endif //UNTITLED1_PLAYER_HPP

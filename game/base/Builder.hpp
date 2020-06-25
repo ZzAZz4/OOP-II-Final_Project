@@ -31,7 +31,8 @@ public:
                 dir = (abs(rand()) % 2) ? Direction::Right : Direction::Down;
                 x = abs(rand()) % 10;
                 y = abs(rand()) % 10;
-            } while (!board.add_boat(x, y, dir, sz));
+            }
+            while (!board.add_boat(x, y, dir, sz));
             board.print_board();
             std::cout << '\n';
         }
