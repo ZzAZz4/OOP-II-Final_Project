@@ -17,9 +17,9 @@ C++ 17
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Actualmente este proyecto funciona en ambientes Windows y Linux, se presentan errores en Mac debido al Game Engine_
 
-_Dí cómo será ese paso_
+_o_
 
 ```
 Da un ejemplo
